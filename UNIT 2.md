@@ -6,6 +6,9 @@ Created: October 10, 2023 1:03 PM
 
 ### Representation Learning
 
+![image](https://github.com/allelbhagya/nn/assets/80905783/7ccbf3b7-32d1-4abd-b569-be6c9a31c9fe)
+
+
 Representation learning or feature learning is the subdiscipline of the machine learning space that deals with extracting features or understanding the representation of a dataset.
 
 A machine learning paradigm where the algorithm learns a set of features or representations directly from the raw data, without relying on manually engineered features. The goal is to automatically discover and create a meaningful and informative representation of the input data that can be used for various tasks such as classification, regression, or clustering.
@@ -17,6 +20,9 @@ A machine learning paradigm where the algorithm learns a set of features or repr
 5. **Dimensionality Reduction:** Representation learning can also be viewed as a form of dimensionality reduction, where the goal is to capture the most important information in a lower-dimensional space.
 
 ### Width and Depth of a neural network
+
+![image](https://github.com/allelbhagya/nn/assets/80905783/3acbdeab-c9bb-4e87-bdeb-cf55422402de)
+
 
 **Width** refers to the numb0er of neurons in each layer of a neural network. A wider network has more neurons, which gives it the ability to learn more complex relationships between features. However, wider networks also have more parameters, which can make them more difficult to train and prone to overfitting.
 
@@ -82,6 +88,9 @@ The following table summarizes the key differences between ReLU, LReLU, and EReL
 
 ## Unsupervised Learning of Neural Networks
 
+![image](https://github.com/allelbhagya/nn/assets/80905783/d8a1880f-19ad-4f81-91b8-c494a0983e2c)
+
+
 Unsupervised training of neural networks involves training a neural network on a dataset of unlabeled data. This means that the data does not have any associated labels or outputs. The goal of unsupervised training is to learn the underlying patterns and structure of the data without any prior knowledge.
 
 There are a number of different unsupervised learning algorithms that can be used to train neural networks. Some common examples include:
@@ -93,6 +102,9 @@ There are a number of different unsupervised learning algorithms that can be use
 To train a neural network for unsupervised learning is to use a loss function that measures the distance between the input data and the output of the network. The network is then trained to minimize this loss function.
 
 ## Restricted Boltzmann Machines
+
+![image](https://github.com/allelbhagya/nn/assets/80905783/f993faca-48f3-4914-9375-c2a37b65a1ff)
+
 
 **There are five main parts of a basic RBM:**
 • Visible units
@@ -111,6 +123,10 @@ To train a neural network for unsupervised learning is to use a loss function th
 **Training**
 The technique known as pretraining using RBMs means teaching it to reconstruct the original data from a limited sample of that data. That is, given a chin, a trained network could approximate (or “reconstruct”) a face. RBMs learn to reconstruct the input dataset.
 
+## Reconstruction 
+![image](https://github.com/allelbhagya/nn/assets/80905783/1dca1fa4-00f5-4f23-ab4d-8cafea3f4df4)
+
+
 In simpler terms, RBMs are a type of machine learning algorithm that can learn from data without being told what to look for. They can be used to find patterns in data, generate new data, and even pre-train other machine learning algorithms.
 
 - **Image denoising:** RBMs can be used to remove noise from images without losing important details.
@@ -120,6 +136,13 @@ In simpler terms, RBMs are a type of machine learning algorithm that can learn f
 - **Anomaly detection:** RBMs can be used to detect unusual patterns in data, such as fraudulent transactions or security breaches.
 
 ### Auto-Encoders
+
+Autoencoder architecture
+![image](https://github.com/allelbhagya/nn/assets/80905783/21423d81-d04a-4469-84ea-70e779afd51f)
+
+
+![image](https://github.com/allelbhagya/nn/assets/80905783/9aad687c-0d30-4586-8973-d826d837e3a7)
+
 
 **Autoencoders** are a type of neural network that can be used to learn efficient representations of data. They are composed of two parts: an encoder and a decoder. The encoder compresses the input data into a smaller representation, while the decoder decompresses the representation back into the original data. The autoencoder is trained to minimize the difference between the input data and the output data.
 
