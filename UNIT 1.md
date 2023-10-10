@@ -1,6 +1,4 @@
-# NN
-
-Created: October 10, 2023 12:40 PM
+# Neural Networks
 
 # UNIT-I Introduction to Neural Networks
 
@@ -15,6 +13,9 @@ A network’s architecture can be defined by:
 - Number of neurons
 - Number of layers
 - Types of connections between layers
+
+![image](https://github.com/allelbhagya/nn/assets/80905783/17851b2f-00e9-47be-a86e-2b679035525b)
+
 
 ## Biological Neural Network
 
@@ -46,9 +47,14 @@ A network’s architecture can be defined by:
 - Studying the basic components of the brain allows for the understanding of the fundamental components of the mind.
 - Research has shown ways to map out brain functionality and track signals as they move through neurons.
 
+  ![1_SgJPlfKHwL-qis-aL19Fyg](https://github.com/allelbhagya/nn/assets/80905783/78b3ea4a-158f-4bd5-af8f-0edbd4946c96)
+
 ## Models of Neurons
 
 ### 1. Perceptron
+
+![image](https://github.com/allelbhagya/nn/assets/80905783/017dcc02-2b7c-4a20-8d9d-c1728836dec6)
+
 
 - Foundational unit of artificial neural networks.
 - Makes binary decisions by summing weighted inputs and passing the result through an activation function.
@@ -56,16 +62,25 @@ A network’s architecture can be defined by:
 
 ### 2. ReLU (Rectified Linear Unit)
 
+![image](https://github.com/allelbhagya/nn/assets/80905783/d17b8cf0-b450-4cb8-b402-e8d8caae69db)
+
+
 - Activation function introducing non-linearity.
 - Outputs the input for positive values and zero for negative values.
 - Effective in mitigating the vanishing gradient problem.
 
 ### 3. Leaky ReLU
 
+![image](https://github.com/allelbhagya/nn/assets/80905783/95751831-e958-41c6-a58d-e83c30913316)
+
+
 - Variant of ReLU allowing a small, non-zero gradient for negative inputs.
 - Prevents neurons from becoming entirely inactive.
 
 ### 4. LSTM (Long Short-Term Memory)
+
+![image](https://github.com/allelbhagya/nn/assets/80905783/399929e7-11f8-40cf-846e-c6a510cb8545)
+
 
 - Recurrent neural network (RNN) architecture.
 - Addresses the vanishing gradient problem and captures long-term dependencies in sequential data.
@@ -73,15 +88,16 @@ A network’s architecture can be defined by:
 
 ### 5. Sigmoid
 
+![image](https://github.com/allelbhagya/nn/assets/80905783/e06c23aa-cb1b-49a3-8e70-cc7f9fce87f5)
+
+
 - Activation function mapping input values to an output range between 0 and 1.
 - Commonly used in binary classification problems.
 - Suitable for modeling probabilities.
 
-## Neural Network as Directed Graph
-
 # Neural Network as Directed Graph
 
-In the context of neural networks, the architecture and connectivity of neurons can be effectively represented as a directed graph. This graph structure illustrates the flow of information through the network. Here's an overview:
+![1_JOvnkqDOkJxJHwM0M7F_ZQ](https://github.com/allelbhagya/nn/assets/80905783/2d9f58bf-fbe9-42c3-979e-cb81471b92fd)
 
 ## Definition:
 
@@ -102,7 +118,10 @@ In the context of neural networks, the architecture and connectivity of neurons 
 
 # Artificial Neuron
 
-An artificial neuron, often referred to as a perceptron, serves as the fundamental building block in artificial neural networks, inspired by the structure and function of biological neurons in the human brain. Here is an overview of its key components and functions:
+![The-structure-of-the-artificial-neuron](https://github.com/allelbhagya/nn/assets/80905783/4fb2478d-3edd-4ea7-af07-33ffae3ff713)
+
+
+An artificial neuron, often referred to as a perceptron, serves as the fundamental building block in artificial neural networks, inspired by the structure and function of biological neurons in the human brain. 
 
 ## Components:
 
@@ -136,6 +155,9 @@ An artificial neuron, often referred to as a perceptron, serves as the fundament
     - The collective behavior of interconnected neurons allows neural networks to model complex relationships and make predictions or classifications based on input data.
     
     # Artificial Neural Network Architecture
+
+  ![image](https://github.com/allelbhagya/nn/assets/80905783/f7217651-2e2a-49ff-b1a3-5436dd1193cd)
+
     
     The architecture of an artificial neural network (ANN) refers to its structural organization, including the arrangement and connectivity of neurons. Here's an overview of the key components and concepts related to ANN architecture:
     
@@ -160,6 +182,9 @@ An artificial neuron, often referred to as a perceptron, serves as the fundament
     - Biases are optional constants that provide additional flexibility in adjusting the decision boundaries of neurons.
     
     ## Single-layered Feedforward Networks:
+
+  ![image](https://github.com/allelbhagya/nn/assets/80905783/98ae6bb1-0a49-48da-bd2e-8c5822d51072)
+
     
     ### Definition:
     
@@ -177,54 +202,57 @@ An artificial neuron, often referred to as a perceptron, serves as the fundament
         - Limited capacity to learn complex patterns, suitable for simple tasks.
     
     ## Multi-layered Feedforward Networks:
+
+![image](https://github.com/allelbhagya/nn/assets/80905783/885e74a8-6df9-44f7-b606-8c6d649f739a)
+
+## Definition:
     
-    ### Definition:
+Multi-layered feedforward networks, or multilayer perceptrons (MLPs), consist of an input layer, one or more hidden layers, and an output layer. Information flows through the network without cycles, making it a feedforward architecture.
     
-    Multi-layered feedforward networks, or multilayer perceptrons (MLPs), consist of an input layer, one or more hidden layers, and an output layer. Information flows through the network without cycles, making it a feedforward architecture.
+### Characteristics:
     
-    ### Characteristics:
-    
-    1. **Hidden Layers:**
+1. **Hidden Layers:**
         - Intermediate layers process and transform data, allowing the network to learn complex representations.
-    2. **Non-linear Activation:**
+2. **Non-linear Activation:**
         - Utilizes non-linear activation functions (e.g., ReLU, sigmoid) to introduce non-linearity.
-    3. **Backpropagation:**
+3. **Backpropagation:**
         - Trained using backpropagation, adjusting weights to minimize errors during training.
-    4. **Versatility:**
+4. **Versatility:**
         - Suitable for a wide range of tasks, including image recognition, natural language processing, and regression.
     
-    ## Recurrent Networks:
+## Recurrent Networks:
+
+![image](https://github.com/allelbhagya/nn/assets/80905783/a097d9de-a095-45cd-b0f7-6277b2d7bbf0)
+
+### Definition:
     
-    ### Definition:
+Recurrent Neural Networks (RNNs) have connections that form cycles, allowing the network to maintain and use information over time. This architecture is well-suited for sequential data and tasks involving temporal dependencies.
     
-    Recurrent Neural Networks (RNNs) have connections that form cycles, allowing the network to maintain and use information over time. This architecture is well-suited for sequential data and tasks involving temporal dependencies.
+### Characteristics:
     
-    ### Characteristics:
-    
-    1. **Temporal Connections:**
+1. **Temporal Connections:**
         - Neurons have connections that loop back, enabling the network to capture sequential patterns.
-    2. **Variable Input Length:**
+2. **Variable Input Length:**
         - Can handle input sequences of varying lengths.
-    3. **Memory Mechanism:**
+3. **Memory Mechanism:**
         - Incorporates memory cells to store and retrieve information over extended sequences.
-    4. **Applications:**
+4. **Applications:**
         - Suitable for tasks like speech recognition, language modeling, and time series prediction.
     
-    ## Topologies:
+## Topologies:
     
-    ### Definition:
+### Definition:
     
-    Network topology refers to the arrangement of nodes and connections in a neural network. Different topologies offer advantages in specific tasks and learning paradigms.
+Network topology refers to the arrangement of nodes and connections in a neural network. Different topologies offer advantages in specific tasks and learning paradigms.
     
-    ### Common Topologies:
+### Common Topologies:
     
-    1. **Fully Connected (Dense):**
+1. **Fully Connected (Dense):**
         - All neurons in one layer are connected to every neuron in the next layer.
-    2. **Convolutional:**
+2. **Convolutional:**
         - Commonly used for image processing, with shared weights in convolutional layers.
-    3. **Recurrent:**
+3. **Recurrent:**
         - Contains cycles, allowing information to persist over time.
-    4. **Radial Basis Function (RBF):**
+4. **Radial Basis Function (RBF):**
         - Employs radial basis functions as activation functions, often used for function approximation.
     
-    Understanding and selecting the appropriate network architecture and topology are crucial for designing effective neural networks tailored to specific tasks and data characteristics.
