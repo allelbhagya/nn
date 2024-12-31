@@ -1,9 +1,0 @@
-- Introduction to Convolutional Neural Networks
-- Recurrent Neural Networks
-- Introduction to CNNs - Kernel filter, Principles behind CNNs
-- Multiple Filters
-- CNN applications
-- Introduction to RNNs
-- Unfolded RNNs,
-- Seq2Seq RNNs
-- LSTM, RNN applications
